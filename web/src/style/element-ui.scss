@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.el-menu{
+  border-right-width: 0 ;
+}
+aside{
+}
+//dialog
+.el-dialog__wrapper{
+  overflow: hidden;
+}
+.el-dialog{
+  min-width: 400px;
+  .el-dialog__header{
+    padding: 13px 20px;
+    background-color: $main_color;
+    .el-dialog__title{
+      color: #fff;
+    }
+  }
+}
+
+.user-info-menu.el-dropdown-menu{
+  min-width: 100px;
+  text-align: center;
+}
+.el-table__row{
+  .el-radio__label{
+    display: none;
+  }
+}
